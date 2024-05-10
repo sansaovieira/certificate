@@ -4,17 +4,17 @@ import { SideNavItem } from './types';
 
 export const SIDENAV_ITEMS: SideNavItem[] = [
   {
-    title: 'Home',
+    title: 'Página Inicial',
     path: '/',
     icon: <Icon icon="lucide:home" width="24" height="24" />,
   },
   {
-    title: 'Certificate',
+    title: 'Certificado',
     path: '/projects',
     icon: <Icon icon="lucide:folder" width="24" height="24" />,
     submenu: true,
     subMenuItems: [
-      { title: 'Click here', path: '/projects/certificate' },
+      { title: 'Clique aqui', path: '/projects/certificado' },
     ],
   },
 ];
