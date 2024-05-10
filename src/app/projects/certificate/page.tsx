@@ -16,7 +16,7 @@ const WebDesignPage = () => {
     e.preventDefault();
     setSubmitted(true);
     setTimeout(() => {
-      router.push('./image'); 
+      router.push('./imagem-certificado'); 
     }, 5000); 
   };
 
