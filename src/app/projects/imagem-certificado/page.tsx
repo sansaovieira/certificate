@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Link from 'next/link'; // Importe o componente Link
+import Link from 'next/link';
 
 const ImagemCertificado = () => {
   return (
