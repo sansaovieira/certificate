@@ -158,8 +158,7 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
               <option>d) Utilizando um sistema de IPAM(IP Address Management) que organiza e gerencia todos os endereços IP da rede com Discovery automático.</option>
             </select>
           </label>
-          <button className="bg-[#677583] 
-  hover:bg-[#6b7b8b] text-white mt-4 p-1 rounded-md text-center w-full">
+          <button className=" bg-[#89c2c1]  hover:bg-[#2c5756] text-white mt-4 p-1 rounded-md text-center w-full">
             Enviar
           </button>
         </form>
