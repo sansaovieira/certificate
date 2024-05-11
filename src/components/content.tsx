@@ -21,8 +21,8 @@ export const Content = () => {
                 <p>Então, se você quer manter sua rede organizada, evitar conflitos de IP e facilitar a gestão da sua infraestrutura, o IPAM é o seu melhor amigo! Chega de dores de cabeça com endereços IP bagunçados ou a falta deles. Deixe o IPAM cuidar de tudo e garanta uma festa de rede perfeita!</p>
             </section>
             <br />
-            <section>
-                <ol className="list-decimal list-inside">
+            <section className="text-justify">
+                <ol className="list-decimal list-inside text-justify">
                     <p>
                         <li>DNS: Como o GPS da internet, o DNS é o sistema responsável por traduzir aqueles nomes de domínio estranhos que você digita no seu navegador em endereços IP, para que você possa acessar seus sites favoritos sem precisar decorar uma sequência de números malucos.</li>
                     </p>
