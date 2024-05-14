@@ -76,6 +76,7 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
           <label className="block">
             <span className="block text-sm font-bold text-slate-700 mt-2">PERGUNTAS: </span>
             <span className="block text-sm font-bold text-slate-500 py-2">1. O que é o DNSSEC (Domain Name System Security Extensions) faz para proteger o DNS?</span>
+
             <input
               type="radio"
               name="topping"
@@ -114,7 +115,7 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
               name="topping"
               value="	Ele oferece conselhos valiosos sobre como os servidores DNS podem cuidar melhor de suas plantas."
               id=" Ele oferece conselhos valiosos sobre como os servidores DNS podem cuidar melhor de suas plantas."
-              checked={selectedTopping === '	Ele oferece conselhos valiosos sobre como os servidores DNS podem cuidar melhor de suas plantas.'}
+              checked={selectedTopping === ' Ele oferece conselhos valiosos sobre como os servidores DNS podem cuidar melhor de suas plantas.'}
               onChange={e => setSelectedTopping(e.target.value)}
             />
             <label htmlFor="	Ele oferece conselhos valiosos sobre como os servidores DNS podem cuidar melhor de suas plantas.">	Ele oferece conselhos valiosos sobre como os servidores DNS podem cuidar melhor de suas plantas.</label>
@@ -162,10 +163,10 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
               name="topping"
               value=" Ele oferece conselhos de vida para servidores DNS que estão passando por uma crise existencial."
               id=" Ele oferece conselhos de vida para servidores DNS que estão passando por uma crise existencial."
-              checked={selectedTopping === '	Ele oferece conselhos de vida para servidores DNS que estão passando por uma crise existencial.'}
+              checked={selectedTopping === ' Ele oferece conselhos de vida para servidores DNS que estão passando por uma crise existencial.'}
               onChange={e => setSelectedTopping(e.target.value)}
             />
-            <label htmlFor=" d)	Ele oferece conselhos de vida para servidores DNS que estão passando por uma crise existencial."> Ele oferece conselhos de vida para servidores DNS que estão passando por uma crise existencial.</label>
+            <label htmlFor=" Ele oferece conselhos de vida para servidores DNS que estão passando por uma crise existencial."> Ele oferece conselhos de vida para servidores DNS que estão passando por uma crise existencial.</label>
             <br />
 
           </label>
@@ -210,7 +211,7 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
               name="topping"
               value=" É um concurso de quem pode gritar mais alto no servidor DNS, causando confusão e interrupções."
               id=" É um concurso de quem pode gritar mais alto no servidor DNS, causando confusão e interrupções."
-              checked={selectedTopping === 'É um concurso de quem pode gritar mais alto no servidor DNS, causando confusão e interrupções.'}
+              checked={selectedTopping === ' É um concurso de quem pode gritar mais alto no servidor DNS, causando confusão e interrupções.'}
               onChange={e => setSelectedTopping(e.target.value)}
             />
             <label htmlFor=" É um concurso de quem pode gritar mais alto no servidor DNS, causando confusão e interrupções."> É um concurso de quem pode gritar mais alto no servidor DNS, causando confusão e interrupções.</label>
@@ -257,12 +258,12 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
             <input
               type="radio"
               name="topping"
-              value=" Em um servidor dedicado, responsável por atribuir os endereços IP aos dispositivos da rede."
-              id=" Em um servidor dedicado, responsável por atribuir os endereços IP aos dispositivos da rede."
-              checked={selectedTopping === 'Em um servidor dedicado, responsável por atribuir os endereços IP aos dispositivos da rede.'}
+              value=" Em um servidor dedicado, responsável por atribuir os endereços IP aos dispositivos da rede. "
+              id=" Em um servidor dedicado, responsável por atribuir os endereços IP aos dispositivos da rede. "
+              checked={selectedTopping === ' Em um servidor dedicado, responsável por atribuir os endereços IP aos dispositivos da rede. '}
               onChange={e => setSelectedTopping(e.target.value)}
             />
-            <label htmlFor=" Em um servidor dedicado, responsável por atribuir os endereços IP aos dispositivos da rede."> Em um servidor dedicado, responsável por atribuir os endereços IP aos dispositivos da rede.</label>
+            <label htmlFor=" Em um servidor dedicado, responsável por atribuir os endereços IP aos dispositivos da rede. "> Em um servidor dedicado, responsável por atribuir os endereços IP aos dispositivos da rede. </label>
             <br />
             
   
@@ -306,12 +307,12 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
             <input
               type="radio"
               name="topping"
-              value=" No servidor de rede, que é responsável por atribuir dinamicamente os endereços IP aos dispositivos."
-              id=" No servidor de rede, que é responsável por atribuir dinamicamente os endereços IP aos dispositivos."
-              checked={selectedTopping === 'No servidor de rede, que é responsável por atribuir dinamicamente os endereços IP aos dispositivos.'}
+              value=" No servidor de rede, que é responsável por atribuir dinamicamente os endereços IP aos dispositivos. "
+              id=" No servidor de rede, que é responsável por atribuir dinamicamente os endereços IP aos dispositivos. "
+              checked={selectedTopping === ' No servidor de rede, que é responsável por atribuir dinamicamente os endereços IP aos dispositivos. '}
               onChange={e => setSelectedTopping(e.target.value)}
             />
-            <label htmlFor=" No servidor de rede, que é responsável por atribuir dinamicamente os endereços IP aos dispositivos."> No servidor de rede, que é responsável por atribuir dinamicamente os endereços IP aos dispositivos.</label>
+            <label htmlFor=" No servidor de rede, que é responsável por atribuir dinamicamente os endereços IP aos dispositivos. "> No servidor de rede, que é responsável por atribuir dinamicamente os endereços IP aos dispositivos. </label>
             <br />
             
             
@@ -355,12 +356,12 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
             <input
               type="radio"
               name="topping"
-              value=" Utilizando um sistema de IPAM(IP Address Management) que organiza e gerencia todos os endereços IP da rede com Discovery automático."
-              id=" Utilizando um sistema de IPAM(IP Address Management) que organiza e gerencia todos os endereços IP da rede com Discovery automático."
-              checked={selectedTopping === 'Utilizando um sistema de IPAM(IP Address Management) que organiza e gerencia todos os endereços IP da rede com Discovery automático.'}
+              value=" Utilizando um sistema de IPAM (IP Address Management) que organiza e gerencia todos os endereços IP da rede com Discovery automático."
+              id=" Utilizando um sistema de IPAM (IP Address Management) que organiza e gerencia todos os endereços IP da rede com Discovery automático."
+              checked={selectedTopping === ' Utilizando um sistema de IPAM (IP Address Management) que organiza e gerencia todos os endereços IP da rede com Discovery automático.'}
               onChange={e => setSelectedTopping(e.target.value)}
             />
-            <label htmlFor=" Utilizando um sistema de IPAM(IP Address Management) que organiza e gerencia todos os endereços IP da rede com Discovery automático."> Utilizando um sistema de IPAM(IP Address Management) que organiza e gerencia todos os endereços IP da rede com Discovery automático.</label>
+            <label htmlFor=" Utilizando um sistema de IPAM (IP Address Management) que organiza e gerencia todos os endereços IP da rede com Discovery automático."> Utilizando um sistema de IPAM (IP Address Management) que organiza e gerencia todos os endereços IP da rede com Discovery automático.</label>
             <br />
            
          
