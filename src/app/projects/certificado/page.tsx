@@ -167,11 +167,11 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
             <input
               type="radio"
               name="topping"
-              value="F,F,F,F,F"
-              id="F,F,F,F,F"
+              value="V,V,F,F,V"
+              id="V,V,F,F,V"
               onChange={e => setSelectedFirewall(e.target.value)}
             />
-            <label htmlFor="F,F,F,F,F">F,F,F,F,F</label>
+            <label htmlFor="V,V,F,F,V">V,V,F,F,V</label>
             <br />
             <input
               type="radio"

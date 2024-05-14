@@ -3,6 +3,7 @@ import '../styles/globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 
+import Footer from '@/components/footer';
 import Header from '@/components/header';
 import HeaderMobile from '@/components/header-mobile';
 import MarginWidthWrapper from '@/components/margin-width-wrapper';
@@ -32,6 +33,7 @@ export default function RootLayout({
               <HeaderMobile />
               <PageWrapper>{children}</PageWrapper>
             </MarginWidthWrapper>
+            <Footer />
           </main>
         </div>
       </body>
