@@ -83,7 +83,6 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
               name="topping"
               value="V,V,F,F,V"
               id="V,V,F,F,V"
-              // checked={selectedDnssec === 'V,V,F,F,V'}
               onChange={e => setSelectedDnssec(e.target.value)}
             />
             <label htmlFor="V,V,F,F,V">V,V,F,F,V</label>
@@ -93,7 +92,6 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
               name="topping"
               value="F,V,F,V,F"
               id="F,V,F,V,F"
-              // checked={ selectedDnssec === 'F,V,F,V,F'}
               onChange={e => setSelectedDnssec (e.target.value)}
             />
             <label htmlFor="F,V,F,V,F">F,V,F,V,F</label>
@@ -105,7 +103,6 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
               name="topping"
               value="V,V,V,V,V"
               id="V,V,V,V,V"
-              // checked={selectedDnssec === 'V,V,V,V,V'}
               onChange={e => setSelectedDnssec(e.target.value)}
             />
             <label htmlFor="V,V,V,V,V">V,V,V,V,V</label>
@@ -116,7 +113,6 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
               name="topping"
               value="F,F,V,V,F"
               id="F,F,V,V,F"
-              // checked={selectedDnssec === 'F,F,V,V,F'}
               onChange={e => setSelectedDnssec(e.target.value)}
             />
             <label htmlFor="F,F,V,V,F">F,F,V,V,F</label>
@@ -130,7 +126,6 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
               name="topping"
               value="F,F,F,V,V"
               id="F,F,F,V,V"
-              // checked={selectedFirewall === 'F,F,F,V,V'}
               onChange={e => setSelectedFirewall(e.target.value)}
             />
             <label htmlFor="F,F,F,V,V">F,F,F,V,V</label>
@@ -140,7 +135,6 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
               name="topping"
               value="V,V,V,F,F"
               id="V,V,V,F,F"
-              // checked={selectedFirewall === 'V,V,V,F,F'}
               onChange={e => setSelectedFirewall(e.target.value)}
             />
             <label htmlFor="V,V,V,F,F">V,V,V,F,F</label>
@@ -152,7 +146,6 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
               name="topping"
               value="F,F,F,F,F"
               id="F,F,F,F,F"
-              // checked={selectedFirewall === 'F,F,F,F,F'}
               onChange={e => setSelectedFirewall(e.target.value)}
             />
             <label htmlFor="F,F,F,F,F">F,F,F,F,F</label>
@@ -163,7 +156,6 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
               name="topping"
               value="V,V,V,V,F"
               id="V,V,V,V,F"
-              // checked={selectedFirewall === 'V,V,V,V,F'}
               onChange={e => setSelectedFirewall(e.target.value)}
             />
             <label htmlFor="V,V,V,V,F">V,V,V,V,F</label>
@@ -175,19 +167,17 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
             <input
               type="radio"
               name="topping"
-              value="F,F,F,V,V"
-              id="F,F,F,V,V"
-              // checked={selectedFirewall === 'F,F,F,V,V'}
+              value="F,F,F,F,F"
+              id="F,F,F,F,F"
               onChange={e => setSelectedFirewall(e.target.value)}
             />
-            <label htmlFor="F,F,F,V,V">F,F,F,V,V</label>
+            <label htmlFor="F,F,F,F,F">F,F,F,F,F</label>
             <br />
             <input
               type="radio"
               name="topping"
               value="V,V,V,F,F"
               id="V,V,V,F,F"
-              // checked={selectedFirewall === 'V,V,V,F,F'}
               onChange={e => setSelectedFirewall(e.target.value)}
             />
             <label htmlFor="V,V,V,F,F">V,V,V,F,F</label>
@@ -199,7 +189,6 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
               name="topping"
               value="F,F,F,F,F"
               id="F,F,F,F,F"
-              // checked={selectedFirewall === 'F,F,F,F,F'}
               onChange={e => setSelectedFirewall(e.target.value)}
             />
             <label htmlFor="F,F,F,F,F">F,F,F,F,F</label>
@@ -210,7 +199,6 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
               name="topping"
               value="V,V,V,V,F"
               id="V,V,V,V,F"
-              // checked={selectedFirewall === 'V,V,V,V,F'}
               onChange={e => setSelectedFirewall(e.target.value)}
             />
             <label htmlFor="V,V,V,V,F">V,V,V,V,F</label>
@@ -224,7 +212,6 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
               name="topping"
               value="V,V,F,F,V"
               id="V,V,F,F,V"
-              // checked={selectedDnssec === 'V,V,F,F,V'}
               onChange={e => setSelectedDnssec(e.target.value)}
             />
             <label htmlFor="V,V,F,F,V">V,V,F,F,V</label>
@@ -234,7 +221,6 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
               name="topping"
               value="F,V,F,V,F"
               id="F,V,F,V,F"
-              // checked={selectedDnssec === 'F,V,F,V,F'}
               onChange={e => setSelectedDnssec(e.target.value)}
             />
             <label htmlFor="F,V,F,V,F">F,V,F,V,F</label>
@@ -246,7 +232,6 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
               name="topping"
               value="V,V,V,V,V"
               id="V,V,V,V,V"
-              // checked={selectedDnssec === 'V,V,V,V,V'}
               onChange={e => setSelectedDnssec(e.target.value)}
             />
             <label htmlFor="V,V,V,V,V">V,V,V,V,V</label>
@@ -257,7 +242,6 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
               name="topping"
               value="F,F,V,V,F"
               id="F,F,V,V,F"
-              // checked={selectedDnssec === 'F,F,V,V,F'}
               onChange={e => setSelectedDnssec(e.target.value)}
             />
             <label htmlFor="F,F,V,V,F">F,F,V,V,F</label>
@@ -271,7 +255,6 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
               name="topping"
               value="V,V,F,F,V"
               id="V,V,F,F,V"
-              // checked={selectedDnssec === 'V,V,F,F,V'}
               onChange={e => setSelectedDnssec(e.target.value)}
             />
             <label htmlFor="V,V,F,F,V">V,V,F,F,V</label>
@@ -281,7 +264,6 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
               name="topping"
               value="F,V,F,V,F"
               id="F,V,F,V,F"
-              // checked={selectedDnssec === 'F,V,F,V,F'}
               onChange={e => setSelectedDnssec(e.target.value)}
             />
             <label htmlFor="F,V,F,V,F">F,V,F,V,F</label>
@@ -293,7 +275,6 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
               name="topping"
               value="V,V,V,V,V"
               id="V,V,V,V,V"
-              // checked={selectedDnssec === 'V,V,V,V,V'}
               onChange={e => setSelectedDnssec(e.target.value)}
             />
             <label htmlFor="V,V,V,V,V">V,V,V,V,V</label>
@@ -304,7 +285,6 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
               name="topping"
               value="F,F,V,V,F"
               id="F,F,V,V,F"
-              // checked={selectedDnssec === 'F,F,V,V,F'}
               onChange={e => setSelectedDnssec(e.target.value)}
             />
             <label htmlFor="F,F,V,V,F">F,F,V,V,F</label>
@@ -319,7 +299,6 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
               name="topping"
               value="V,V,F,F,V"
               id="V,V,F,F,V"
-              // checked={selectedDnssec === 'V,V,F,F,V'}
               onChange={e => setSelectedDnssec(e.target.value)}
             />
             <label htmlFor="V,V,F,F,V">V,V,F,F,V</label>
@@ -329,7 +308,6 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
               name="topping"
               value="F,V,F,V,F"
               id="F,V,F,V,F"
-              // checked={selectedDnssec === 'F,V,F,V,F'}
               onChange={e => setSelectedDnssec(e.target.value)}
             />
             <label htmlFor="F,V,F,V,F">F,V,F,V,F</label>
@@ -341,7 +319,6 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
               name="topping"
               value="V,V,V,V,V"
               id="V,V,V,V,V"
-              // checked={selectedDnssec === 'V,V,V,V,V'}
               onChange={e => setSelectedDnssec(e.target.value)}
             />
             <label htmlFor="V,V,V,V,V">V,V,V,V,V</label>
@@ -352,7 +329,6 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500
               name="topping"
               value="F,F,V,V,F"
               id="F,F,V,V,F"
-              // checked={selectedDnssec === 'F,F,V,V,F'}
               onChange={e => setSelectedDnssec(e.target.value)}
             />
             <label htmlFor="F,F,V,V,F">F,F,V,V,F</label>
